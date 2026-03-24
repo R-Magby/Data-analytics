@@ -51,9 +51,12 @@ Lo interesante se encuentra en el norte (Antofagasta y Atacama ) donde un el PIB
 Los demas presentan datos no significativos, lo puede deberse a ajustes anuales y no presentan una tendencia alcista o bajista.
 
 El dato interesante es Valparaíso, genera electricidad que no se traduce en crecimiento económico local, posiblemente, el cierre progresivo de las plantas a carbon. Su economía crece por servicios, comercio y turismo, no por industria electrointensiva.
-Para mayor detalle acerca de la [Tabla.2]()
+Para mayor detalle acerca de la [Tabla.2](Tablas/Elec_x_PIB.md)
 
 ## Power BI
 Con el fin de visualizar este proyecto se confecciono un informe con las siguientes secciones:
 - PIB por Región: Efoque en el PIB generado por al region en cada año (no en su servicio), separando las regiones con santiago y viendo el pais con mayor y menor crecimiento en el año. [Imagen de la primera pagina]('Power BI'/page_1.png)
-- 
+<figure>
+   <img src="Power BI/page_1.png" alt="drawing" width="500"/>
+  <figcaption>Mapa de Chile con region coloreada segun su PIB, graficos de lineas mostrando la region metropolitana y las 5 regiones que mas contribuyen, tarjetas de crecimiento con su año anterior y grafico de barra de las regiones.</figcaption>
+</figure
