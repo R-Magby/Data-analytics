@@ -20,6 +20,7 @@ En el año 2024
 |Valparaíso||
 ### Principales Servicios por Región
 Pregunta: ¿Que servicios son la principal fuente de PIB de cada región?
+
 En esta seccion, me enfoque mas en averiguar los tres servicios que mas generan PIB del 2024 en cada region, queda pendiente un analisis historico de las regiones.
 El resultado fue una notoria dominancia de los servicios personales	y  servicios financieros y empresariales, si bien esto responde la pregunta, queda la intriga si ¿Estos servicios entregan la mayor cantidad de PIB? si no ¿Cuanto se diferencia con el principal servicio del pais?
 Para la vista mas detallada se puede consultar la [tabla.1](Tablas/Serv_x_region.md).
