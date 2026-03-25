@@ -29,6 +29,7 @@ En el año 2024 las regiones que mas contribuyeron fueron:
 |Region Metropolitana de Santiago|118.637,69 MM$|
 |Antofagasta|33.249,73 MM$|
 |Valparaíso|22539.73 MM$|
+
 Además tambien fueron las regiones que mas han contribuido en el periodo 2013 - 2024.
 
 ### Principales Servicios por Región
@@ -46,6 +47,7 @@ Los servicios que entregaron la mayor cantidad de PIB historicamente (y que tamb
 |Servicios financieros y empresariales|330.876,37 MM$|
 |Servicios personales|296.890,25 MM$|
 |Minería|261.564,25 MM$|
+
 Seguidos por la industria manufacturera y el comercio.
 ### Crecimiento de Regiones
 pregunta: ¿Que regiones han crecido más en el periodo 2013-2024?
