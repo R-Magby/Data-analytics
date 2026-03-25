@@ -17,6 +17,7 @@ Con el fin de visualizar este proyecto se confecciono un informe con las siguien
   <figcaption>Mapa de Chile con region coloreada segun su PIB, graficos de lineas mostrando la region metropolitana y las 5 regiones que mas contribuyen, tarjetas de crecimiento con su año anterior y grafico de barra de las regiones.</figcaption>
 </figure
 
+
 ## Analisis Detallado:
 
 ### Principales Regiones
