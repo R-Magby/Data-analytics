@@ -5,6 +5,7 @@ usando programacion en python (pandas) y estadistica, se pudo identificar:
 - Una prediccion de los posible servicios dominantes en el futuro.
 - Analisis COVID
 - Generacion de electricidad por region y su correlacion con el PIB.
+
 Este proyecto continua con un informe en power BI, donde se visualiza este informacion, conteniendo las siguientes secciones (por ahora):
 - PIB por regiones
 - Servicios
