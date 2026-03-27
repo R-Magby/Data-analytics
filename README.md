@@ -10,7 +10,7 @@ en Power BI.
 
 | Proyecto | Herramientas | Descripción |
 |---|---|---|
-| [Análisis Económico Regional — Chile](./'Banco Central PIB Regional'/) | Python · pandas · Power BI · API Banco Central | Análisis del PIB regional 2013–2024: crecimiento, sectores dominantes, impacto COVID y correlación con generación eléctrica |
+| [Análisis Económico Regional — Chile](./PIB_Regional/) | Python · pandas · Power BI · API Banco Central | Análisis del PIB regional 2013–2024: crecimiento, sectores dominantes, impacto COVID y correlación con generación eléctrica |
 | [Rendimiento Educacional — Chile](./'Rendimiento Escolar Chile'/) | SQL · DuckDB · Python | En desarrollo |
 
 ### Habilidades
