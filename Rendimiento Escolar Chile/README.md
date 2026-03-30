@@ -16,9 +16,9 @@ Este proyecto nace de un gran interes que tengo en la educacion en Chile, desean
 ## Establecimiento por región 2024
 Pregunta: ¿Cuales son las regiones que tienen mas establecimientos? ¿Cual es la cantidad de establecimientos rurales y urbano?
 
-No es sorpresa que la región metropolitana sea donde haya mayor cantidad de establecimientos, lo interesante es ver a medida ue se aleja de la capital los establecimientos urbanos aumentan en proporcion. Esto abre las siguientes preguntas: ¿la aprobacion se ve afectada de igual manera? y ¿La aprobacion se ve afectada por la cantidad de personas en la region (almenos en basica (más facil filtrar))?
+No es sorpresa que la región metropolitana sea donde haya mayor cantidad de establecimientos, lo interesante es ver a medida ue se aleja de la capital los establecimientos urbanos aumentan en proporcion. Esto abre las siguientes preguntas: ¿la aprobacion se ve afectada de igual manera? y ¿La aprobacion se ve afectada por la cantidad de personas en la region (al menos en basica (más facil filtrar))?
 
-Además las 4 regiones coiciden con las regiones mas pobladas del pais en 2024 (fuente: [Link](https://www.meganoticias.cl/nacional/480287-censo-las-regiones-que-tienen-mas-habitantes-en-chile-brk-27-03-2025.html))
+Además las 4 regiones coinciden con las regiones mas pobladas del pais en 2024 (fuente: [Link](https://www.meganoticias.cl/nacional/480287-censo-las-regiones-que-tienen-mas-habitantes-en-chile-brk-27-03-2025.html))
 
 |Region      |Cantidad_Escuelas |Cantidad_Urbano |Cantidad_Rurales|
 |----------- |----------------- |--------------- |----------------|
@@ -33,23 +33,23 @@ Pregunta: ¿El mejor y el peor año con respecto a los aprobados en la enseñanz
 
 Para responder se confecciona la siguiente tabla, el cual el objetivo es identificar eventos historicos o leyes que hayan podido influir a corto plazo (un año) en la aprobación.
 
-Los eventos que mas movieron la educacion en chile fueron el COVID (educacion fortalecida, talvez por la facilidad de copias y la invension de chatgpt), la vuelta a la normalidad dio un golpe de realidad y el 2010  tambien tuvo un efecto de estudio en la educacion chilena.
+Los eventos que mas movieron la educacion en chile fueron el COVID (educacion fortalecida, tal vez por la facilidad de copias y la invenciónn de chatgpt), la vuelta a la normalidad dio un golpe de realidad y el 2010  tambien tuvo un efecto de estudio en la educacion chilena.
 
 |Año|Evento o Ley| Variacion Hombres|Variacion Mujeres|
 |---|---|---|---|
 |2006| “Revolución de los pingüinos”|-0.7%|-0.4%|
 |2010|[Ley General de Educación y Terremoto](https://es-academic.com/dic.nsf/eswiki/721035/?utm_source=chatgpt.com))|-1.72%|-1.37%|
 |2013|[Creacion (2011-2012) Superintendencia de Educación](https://es.wikipedia.org/wiki/Superintendencia_de_Educaci%C3%B3n#:~:text=La%20Superintendencia%20de%20Educaci%C3%B3n%20en,la%20Intendencia%20de%20Educaci%C3%B3n%20Parvularia.)|0.63%|0.60%|
-|2018|Creación del SLEP(2017)|-0.19%|-0.3%|
+|2018|[Creación del SLEP](https://elpais.com/chile/2024-11-29/la-nueva-educacion-publica-avanza-y-funciona.html?utm_source=chatgpt.com)(2017)|-0.19%|-0.3%|
 |2020-2021|COVID|6.4% & -1.3%|5.1% & -1.2%|
 |2022|Vuelta a la Normalidad|-4.51%|-4.01%|
 
 Notas:
-- El 2009 se instauro una ley que modificaba los procesos de admision, lamentablemente no se ven afectos notorsio debido al terremoto de febrero del 2010. Si bien solamente afecta principalemente a la region del bio-bio y alrededores, hay que hacer un analisis mas profundo en las que no sufrieron efectos directos. (más probable que hayan aumentado los retiros)
-- El SLEP tiene mas impacto en al educación publica, por lo que tambien emrece su propio analisis.
+- El 2009 se instauro una ley que modificaba los procesos de admision, lamentablemente no se ven afectos notorios debido al terremoto de febrero del 2010. Si bien solamente afecta principalemente a la region del bio-bio y alrededores, hay que hacer un analisis mas profundo en las que no sufrieron efectos directos. (más probable que hayan aumentado los retiros)
+- El SLEP tiene mas impacto en al educación publica, por lo que tambien merece su propio analisis.
 
 ## Aprobacion segun tipo de enseñanza
-Pregunta: ¿Que tipo de enseñanza tiene mayor tasa de aprobacion y de retiros en el 2024?
+Pregunta: ¿Que tipo de enseñanza tiene mayor tasa de aprobación y de reprobados en el 2024?
 
 Se obtuvo el promedio de aprobados y reprobados segun el tipo de enseñanza en el 2024, dondela educacion basica y media para menores se destaca en primer lugar con mejor promedio de aprobacion y de las mas bajas de reprobados. A continuación se destacan algunas de ellas:
 
@@ -62,7 +62,12 @@ Se obtuvo el promedio de aprobados y reprobados segun el tipo de enseñanza en e
 |165|Educación de Adultos Sin Oficios|Mayor reprobacion femenina|15.82%|19.32%|
 |463|Media T-P Comercial Adultos |Mayor reprobacion masculina|21.86%|18.46%|
 
-Es curioso notar que la menor aprobación de menores femenino resulta ser la menor aprobacion masculina en adultos, y viceversa, sin embargo las mujeres en escuelas industriales no presentan un cambio tan abrupto como en escuelas agricolas. Tambien destacar que el porcentaje sobrante en su mayoria corresponde a casos de retiros del establecimiento que reprobados.
+Es curioso notar que la menor aprobación de menores femenino resulta ser la menor aprobacion masculina en adultos, y viceversa, sin embargo las mujeres en escuelas industriales no presentan un cambio tan abrupto como en escuelas agricolas. ¿Por qué las mujeres en educación técnica industrial tienen menor caída de aprobación que en agrícola? ¿Es por temas personales, de matrícula, de contexto regional o de tipo de establecimiento?
+
+Tambien destacar que el porcentaje sobrante en su mayoria corresponde a casos de retiros del establecimiento que reprobados, si bien la columnas relacionada con los retiros presenta incongruencias debido a que la mayoria datos de muejres retiradas estan vacias, lo que dificulta el analisis, es posible avanzar en esa direccion haciendo la diferencia.
 
 Nota: Se descartaron los que tenian un total de alumnos muy baja (menos de 20). Tambien hay codigos no establecidos (los de valor 200), lo que imposibilita su analisis.
 
+## Comentarios finales
+
+- 
