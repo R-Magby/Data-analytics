@@ -1,7 +1,7 @@
 USE [Rendimiento_Escolar]
 GO
 
-/*Estadistica Basica de APR_MUJ_TO por fecha*/
+/*Estadistica Basica global por fecha*/
 
 SELECT "Date", AVG(APR_MUJ_TO) media,
 		STDEV(APR_MUJ_TO) desviacion,
@@ -87,23 +87,16 @@ WITH Total_escuela AS (
 			COALESCE(APR_MUJ_TO,0) + COALESCE(REP_MUJ_TO,0) + COALESCE(RET_MUJ_TO,0) + COALESCE(TRA_MUJ_TO,0)AS Total_Mujeres
 	FROM Registro
 	WHERE "Date" = 2024 /*Solo establecimientos de educación básica*/
-),
-Tasas AS (
-	SELECT	Total_escuela.*,
-			(Total_escuela.APR_HOM_TO * 100.0) / NULLIF(Total_Hombres, 0) AS Tasa_Aprobacion_Hombres,
-			(Total_escuela.APR_MUJ_TO * 100.0) / NULLIF(Total_Mujeres, 0) AS Tasa_Aprobacion_Femenino ,
-			(Total_escuela.REP_HOM_TO * 100.0) / NULLIF(Total_Hombres, 0) AS Tasa_Desaprobado_Hombres,
-			(Total_escuela.REP_MUJ_TO * 100.0) / NULLIF(Total_Mujeres, 0) AS Tasa_Desaprobado_Femenino
-	FROM Total_escuela
-	)
-SELECT COD_ENSE,
-		SUM(Total_Hombres) AS Total_Hombres,
-		SUM(Total_Mujeres) AS Total_Mujeres,
-		AVG(Tasa_Aprobacion_Hombres) AS Promedio_Tasa_Aprobacion_Hombres,
-		AVG(Tasa_Aprobacion_Femenino) AS Promedio_Tasa_Aprobacion_Femenino,
-		AVG(Tasa_Desaprobado_Hombres) AS Promedio_Tasa_Desaprobado_Hombres,
-		AVG(Tasa_Desaprobado_Femenino) AS Promedio_Tasa_Desaprobado_Femenino
-FROM Tasas
+)
+
+SELECT	COD_ENSE,
+		SUM(total_hombres) AS Total_Hombres,	
+		SUM(total_mujeres) AS Total_Mujeres,
+		(SUM(Total_escuela.APR_HOM_TO) * 100.0) / NULLIF(SUM(Total_Hombres), 0) AS Tasa_Aprobacion_Hombres,
+		(SUM(Total_escuela.APR_MUJ_TO) * 100.0) / NULLIF(SUM(Total_Mujeres), 0) AS Tasa_Aprobacion_Femenino ,
+		(SUM(Total_escuela.REP_HOM_TO) * 100.0) / NULLIF(SUM(Total_Hombres), 0) AS Tasa_Desaprobado_Hombres,
+		(SUM(Total_escuela.REP_MUJ_TO) * 100.0) / NULLIF(SUM(Total_Mujeres), 0) AS Tasa_Desaprobado_Femenino
+FROM Total_escuela
 GROUP BY COD_ENSE
-ORDER BY  Promedio_Tasa_Aprobacion_Femenino DESC
+ORDER BY  Tasa_Aprobacion_Femenino DESC
 ;
