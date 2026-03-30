@@ -14,4 +14,4 @@ en Power BI.
 | [Rendimiento Escolar — Chile](./Rendimiento%20Escolar%20Chile/) | SQL · DuckDB · Python | En desarrollo |
 
 ### Habilidades
-`Python` `pandas` `SQL` `Power BI` `Excel` `matplotlib` `seaborn` `numpy` `scipy`
+`Python` `pandas` `SQL` `Power BI` `Excel` `matplotlib` `seaborn` `numpy` `scipy` `SSMS`
