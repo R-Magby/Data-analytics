@@ -55,5 +55,14 @@ Se obtuvo el promedio de aprobados y reprobados segun el tipo de enseñanza en e
 
 |Codigo|Enseñanza|Destacado|Masculino|Femenino|
 |---|---|---|---|---|
-|510|Media T-P Industrial|Menor aprobacion Femeninda de menores|86.35%| 87%|
-|510|Media T-P Industrial|Menor aprobacion Masculina de menores|86.35%| 87%|
+|510|Media T-P Industrial|Menor aprobacion femeninda de menores|86.35%| 87%|
+|710|Media T-P Agrícola|Menor aprobacion masculina de menores|82.20%| 87.59%|
+|763|Media T-P Agrícola|Menor aprobacion femenina en adultos|46.57%| 52.63%|
+|563|Media T-P Industrial|Menor aprobacion masculina en adultos|46.36%| 70.48%|
+|165|Educación de Adultos Sin Oficios|Mayor reprobacion femenina|15.82%|19.32%|
+|463|Media T-P Comercial Adultos |Mayor reprobacion masculina|21.86%|18.46%|
+
+Es curioso notar que la menor aprobación de menores femenino resulta ser la menor aprobacion masculina en adultos, y viceversa, sin embargo las mujeres en escuelas industriales no presentan un cambio tan abrupto como en escuelas agricolas. Tambien destacar que el porcentaje sobrante en su mayoria corresponde a casos de retiros del establecimiento que reprobados.
+
+Nota: Se descartaron los que tenian un total de alumnos muy baja (menos de 20). Tambien hay codigos no establecidos (los de valor 200), lo que imposibilita su analisis.
+
