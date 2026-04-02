@@ -50,6 +50,7 @@ Los servicios que entregaron la mayor cantidad de PIB historicamente (y que tamb
 |Minería|261.564,25 MM$|
 
 Seguidos por la industria manufacturera y el comercio.
+
 ### Crecimiento de Regiones
 pregunta: ¿Que regiones han crecido más en el periodo 2013-2024?
 
@@ -74,8 +75,7 @@ serivios personales y administracion publica, esto posiblemente debido al alza d
 - Los Rios a diferencia de Los Lagos, su industria manufacturera en un plazo de 2 a 3 años puede ser remplazado por servicios personales.
 
 ### Analisis COVID.
-Al tener datos economicos es necesario hacer un analisis de estos eventos que afectan a la economia nacional (y global en este caso). Es por ello que me realicé
-las siguientes preguntas: ¿En que afecto la pandemia a los servicios de las regiones? y ¿El PIB post-pandemia recupero lo proyectado del PIB pre-pandemia?
+preguntas: ¿En que afecto la pandemia a los servicios de las regiones? y ¿El PIB post-pandemia recupero lo proyectado del PIB pre-pandemia?
 
 Para esto se dividieron los datos, pre y post, sin considerar el 2020, se estudio el cambio de la tendencia, la volatilidad y el crecimiento acumulado compuesto (CAGR), para ello se tuvieron que normalizar los datos, ya que pre pandemia se consideran 7 años y post 4 años.
 
@@ -90,10 +90,13 @@ Se espera que a futuro se pueda responder la segunda pregunta.
 Preguntas: ¿El aumento de generacion de electrcidad implica aumento en el PIB o viceversa? y ¿Este aumento puede atribuirse al crecimiento del año anterior?
 
 Del mismo banco central es posible descargar datos mensuales de la generacion y distribucion de electrcidad (Mwh) de algunas regiones, para poder relacionarlo con el PIB se calculo el promedio de cada año. 
-Lo interesante se encuentra en el norte (Antofagasta y Atacama ) donde un el PIB tiene un mayor impacto cuando crece la generacion de electricidad del año anterior en la region, esto posiblemente debido al rubro minero. Mientras que algunas regiones (Los lagos, Ñuble y Arica y parinacota) con principal rubro los Servicios personales (Actividades deportivas, artisticas, de entretencion, peluquerias,etc...) arrastran la demanda energetica.
-
-Los demas presentan datos no significativos, lo puede deberse a ajustes anuales y no presentan una tendencia alcista o bajista.
+Lo interesante se encuentra en el norte (Antofagasta y Atacama ) donde un el PIB tiene un mayor impacto cuando crece la generacion de electricidad del año anterior en la region, esto posiblemente debido al rubro minero. Mientras que algunas regiones (Los lagos, Ñuble y Arica y parinacota) con principal rubro los Servicios personales (Actividades deportivas, artisticas, de entretencion, peluquerias,etc...) arrastran la demanda energetica.Los demas presentan datos no significativos, lo que puede deberse a ajustes anuales y no presentan una tendencia alcista o bajista.
 
 El dato interesante es Valparaíso, genera electricidad que no se traduce en crecimiento económico local, posiblemente, el cierre progresivo de las plantas a carbon. Su economía crece por servicios, comercio y turismo, no por industria electrointensiva.
 Para mayor detalle acerca de la [Tabla.2](Tablas/Elec_x_PIB.md)
 
+### Series de Tiempo
+
+pregunta: ¿Es posible predecir el PIB regional usando la generación eléctrica como variable anticipadora?
+
+Se entrenaron modelos ARIMA y SARIMA sobre los datos mensuales de electricidad para proyectar el PIB mediante regresión lineal. El error relativo del sistema de dos etapas fue del 20–30%, insuficiente para uso predictivo práctico. Queda pendiente explorar modelos con lag explícito y variables exógenas adicionales como empleo y desocupación.
